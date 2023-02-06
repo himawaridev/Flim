@@ -25,3 +25,4 @@ function handleClick(number) {
         location.href = 'login.html';
     }
 }
+
