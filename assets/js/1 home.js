@@ -89,29 +89,3 @@ function showFilm(numberSlidesNext) {
     }
 }
 
-// // film 2
-// const NUMBER_ITEM_SHOW_1 = 5
-// const arrShow1 = [0, 1, 2, 3, 4]
-
-// showFilm1(0);
-
-// function filmSlides1(n) {
-//     showFilm1(n);
-// }
-// function showFilm1(numberSlidesNext) {
-//     let film1 = document.getElementsByClassName('image-poster-film-length-1')
-//     for (let i = 0; i < arrShow1.length; i++) {
-//         if (arrShow1[0] + numberSlidesNext >= 0 && arrShow1[4] + numberSlidesNext < film1.length) {
-//             arrShow1[i] += numberSlidesNext
-//         }
-
-//     }
-
-//     console.log(arrShow1)
-//     for (i = 0; i < film.length; i++) {
-//         film1[i].style.display = 'none';
-//     }
-//     for (i = 0; i < arrShow1.length; i++) {
-//         film1[arrShow1[i]].style.display = 'block';
-//     }
-// }
